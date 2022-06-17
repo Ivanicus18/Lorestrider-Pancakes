@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# The Fallout Wasteland Resource Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Resource-Tracker-Wireframe](https://user-images.githubusercontent.com/90791199/174320211-4316f6ea-2e67-41a7-b19b-505fa143b172.png)
 
-## Available Scripts
+## Description
+**The Fallout Wasteland Resource Tracker** is a combined webpage and database built for the express purpose of allowing RPers from the NS Roleplay Region known as the Fallout Wasteland to track and manage their resources without having to keep track of all their numbers in their head or in their dispatches themselves.
 
-In the project directory, you can run:
+## Installation
+This application was built using React.js, CSS, Javascript, and the npms and helpers listed below. MYSQL Workbench was also used for ease of testing and querying the database, though it is not required.
 
-### `npm start`
+Required npms:
+- [express](https://www.npmjs.com/package/express)
+- [sequelize](https://www.npmjs.com/package/sequelize)
+- [mysql2](https://www.npmjs.com/package/mysql2)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [handlebars](https://www.npmjs.com/package/handlebars)
+- [sharp](https://www.npmjs.com/package/sharp)
+- [multer](https://www.npmjs.com/package/multer)
+- [dotenv](https://www.npmjs.com/package/dotenv) (Optional - to protect sensitive information)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Other Helpers:
+- [bootstrap](https://www.npmjs.com/package/bootstrap)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+To access the program via `localhost`, a connection to the server must be made using MYSQL. After installing the necessary npms and providing the database access criteria, the connection can be made using the terminal CLI by evoking `npm start`. Alternatively, a link to the deployed online application is available below.
 
-### `npm test`
+## Contributers
+- [Ivan Thiessen](https://github.com/Ivanicus18)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Links
+- [Git Repository](https://github.com/Ivanicus18/Lorestrider-Pancakes)
+- [Deployed Application]TBD
 
-### `npm run build`
+## Other Credits:
+- Header photo
+- Icons made using [Canva](https://www.canva.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
