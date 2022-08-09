@@ -6,7 +6,7 @@
 **Bloodhounde** is a combined webpage and database built for the express purpose of allowing RPers from the NS Roleplay Region known as the Fallout Wasteland to track and manage their resources without having to keep track of all their numbers in their head or in their dispatches themselves.
 
 ## Installation
-This application was built using React.js, CSS, Javascript, and the npms and helpers listed below. MYSQL Workbench was also used for ease of testing and querying the database, though it is not required.
+This application was built using React.js, CSS, Javascript, and the npms and helpers listed below.
 
 Required npms:
 - [express](https://www.npmjs.com/package/express)
