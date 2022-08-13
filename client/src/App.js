@@ -1,15 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import About from './components/About';
 import Header from './components/Header';
+import Footer from './components/Footer'
 
 function App() {
     return (
-        <div className="App">
+        <div className="sticky">
             <Header />
-            <main>
+            <main className='sticky-content'>
                 <About></About>
             </main>
+            <Footer />
         </div>
     );
 }

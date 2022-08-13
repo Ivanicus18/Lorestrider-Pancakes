@@ -136,6 +136,17 @@ nav a:hover {
   display: inline;
 }
 
+/* STICKY FOOTER */
+.sticky {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.sticky-content {
+  flex: 1;
+}
+
 /* CARDS */
 .card {
   margin: 0 0 20px 0;

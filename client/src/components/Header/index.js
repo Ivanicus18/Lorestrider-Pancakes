@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header() {
     return (
-        <header>
+        <header className="bg-secondary mb-4 py-2 flex-row align-center">
             <div>
-                <div>
+                <div className="container flex-row justify-space-between-lg justify-center align-center">
                     <h1>Bloodhounde.com</h1>
                 </div>
 
